@@ -77,17 +77,6 @@ def E_PER(pns_for_scraping, credentials):
                 page.click(".MenuDropLists li:nth-child(4) a")
                
 
-
-
-
-
-
-
-
-
-
-               
-                
                 for pn in pns_for_scraping:
                     print(f"\n🔎 Searching for PN: {pn}")
                     try:
